@@ -5,13 +5,14 @@
     box-sizing: border-box;
     font-family: 'JetBrains Mono', monospace;
     text-decoration: none;
-    text-align: center;
-    /* font-size: 34px; */
+    list-style-type: none;
+    
 }
 
 body{
     position: relative;
     height: 100vh;
+    width: 100%;
 }
 
 img{
@@ -29,4 +30,18 @@ img{
     background-color: rgb(111, 105, 105);
     color: white;
     text-align: center;
+}
+
+/* sidebar-container */
+.sidebar-container{
+    width: 220px;
+    height: calc(100vh - 5vh);
+    background-color: #0c0f13;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 2px 0 10px rgb(128,128,128, 0.363);
+    transition: 0.5s;
+    z-index: 10;
+    position: absolute;
 }
