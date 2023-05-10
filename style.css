@@ -27,9 +27,10 @@ img{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(111, 105, 105);
+    background-color: #0c0f13;
     color: white;
     text-align: center;
+    font-size: 0.8rem;
 }
 
 /* sidebar-container */
@@ -84,28 +85,33 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px 0;
-    margin-bottom: 20px;
+    padding: 100px 0;
+    margin-bottom: 35px;
     background-image: url('images/logo2.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
-.profile-card .title{
+
+/* .profile-card .title{
     margin-top: 5px;
     font-weight: 700;
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #0c0f13;
-}
+} */
 
-.profile-card .subtitle{
-    font-weight: 300;
-    font-size: small;
+/* .profile-card .subtitle{
+    margin-top: 5px;
+    font-weight: 700; 
+    font-size: 1.2rem;
+    text-transform: uppercase;
     letter-spacing: 1px;
-}
+    color: #0c0f13;
+} */
 
 /* list container */
 .links-list li a,
@@ -136,4 +142,32 @@ img{
 .links-list li{
     width: 100%;
     margin-top: 10px;
+}
+
+.links-list li:nth-child(5){
+    padding-top: 10px;
+    border-top: 2px rgb(128,128,128, 0.15) solid;
+}
+
+.signout{
+    border-top: 2px rgb(128,128,128, 0.15) solid;
+    padding-top: 15px 0;
+    
+}
+
+.media-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: large;
+    padding: 20px 0;
+
+}
+
+.media-icons a {
+    color: lightgray;
+}
+
+.media-icons a:hover{
+    color: whitesmoke;
 }
