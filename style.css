@@ -32,6 +32,10 @@ img{
     color: white;
     text-align: center;
     font-size: 0.8rem;
+    padding-top: 5px;
+}
+.footer a{
+    color: white;
 }
 
 /* sidebar-container */
@@ -69,9 +73,9 @@ img{
 
 .lines{
     width: 60%;
-    height: 2px;
+    height: 3px;
     display: block;
-    background-color: #EDEDED;
+    background-color: whitesmoke;
     padding-right: 10px;
 }
 
@@ -171,4 +175,23 @@ img{
 
 .media-icons a:hover{
     color: whitesmoke;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .footer{
+        position: absolute;
+        right: 0;
+        margin-top: 10px;
+        padding: 10px 0 0 100px;
+        width: 100%;
+        height: 35px;
+        font-size: 0.8rem;
+    }
+
+    .footer div, .studying{
+        display: none;
+    }
 }
